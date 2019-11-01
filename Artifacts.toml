@@ -1,0 +1,9 @@
+[[MKL]]
+arch = "i686"
+git-tree-sha1 = "4c1391b17b4e55c072e8bff4cdb4aa6d4c3c63e0"
+libc = "glibc"
+os = "linux"
+
+    [[MKL.download]]
+    sha256 = "8133b4884f2bfe89c37616e8249f2cdfa52ad8df965504d0f8a12495b763a7ea"
+    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+0/MKL.v2019.0.117.i686-linux-gnu.tar.gz"
