@@ -1,42 +1,42 @@
 [[MKL]]
 arch = "i686"
-git-tree-sha1 = "b6cec7161efda8dbe6cb6fe08f4588f4b0dae62d"
+git-tree-sha1 = "ab3d96a0ac977013f845ce48992b5596ab515898"
 os = "windows"
 
     [[MKL.download]]
-    sha256 = "94bd0089ef5d5c81541e0e054adcf17518e3e3e0a094555d4f08ec88bdd3f873"
+    sha256 = "f0d447250bd27f704c82a3adb3ebd366456a5cde26c2fa9bd2e9cf43efdd04c3"
     url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+1/MKL.v2019.0.117.i686-w64-mingw32.tar.gz"
 [[MKL]]
 arch = "x86_64"
-git-tree-sha1 = "c0eb7f2acbcb118e38ec8b9dd18070e3fe0e07cc"
+git-tree-sha1 = "6beff3703749cea0d7a370e7f89ee167dfc64819"
 os = "windows"
 
     [[MKL.download]]
-    sha256 = "07b40286c6168a90c66069873fc5ebbefecd2d5d2942f43daf3a62f7565455fd"
+    sha256 = "0a7b34d470ed7d3b3ed9e193a17491e1551bbd2c8ff1b24a0461afc874dd70af"
     url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+1/MKL.v2019.0.117.x86_64-w64-mingw32.tar.gz"
 [[MKL]]
 arch = "x86_64"
-git-tree-sha1 = "747427dffee855fa3efacb6a4702bb864f918e06"
+git-tree-sha1 = "8464ebd2d824c75c6ac1f64eb247ad1efcb293e0"
 os = "macos"
 
     [[MKL.download]]
-    sha256 = "d78c0e9b5440df5350483ed76612c513d00bf66ab36e917f6b90da99ff018a5a"
+    sha256 = "be1a5fd65992183838b5b3e60a11f937b3af343f26857c5c47e9b71c5b3152bc"
     url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+1/MKL.v2019.0.117.x86_64-apple-darwin14.tar.gz"
 [[MKL]]
 arch = "i686"
-git-tree-sha1 = "6c03bbf8d5905b5ab12ccc8a861724bac1a581d7"
+git-tree-sha1 = "d58e8600501514df88860c496af5e86be7b07fb7"
 libc = "glibc"
 os = "linux"
 
     [[MKL.download]]
-    sha256 = "e68c0ae07b9c3a871d895db194a6b50648770522f89f440790d5b9bfdbba4149"
+    sha256 = "b69b9f6189af5406ce7992f5245dfbc73e4e13576abf10eb36571a77ccd15dba"
     url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+1/MKL.v2019.0.117.i686-linux-gnu.tar.gz"
 [[MKL]]
 arch = "x86_64"
-git-tree-sha1 = "3b8d0b6985acef3d206fb5f317350806406b0894"
+git-tree-sha1 = "1ab9ec1681f7693e15e282e79c1fa16441b067e6"
 libc = "glibc"
 os = "linux"
 
     [[MKL.download]]
-    sha256 = "02671e7d2c7d9a3ede5c9b6e30239724145061adbbb994d2dadebcfb2e1a87d8"
+    sha256 = "2b787be944cb795c0bacbbffb159831caa3e0fb4f336c6137df145afc76f0ae3"
     url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2019.0.117+1/MKL.v2019.0.117.x86_64-linux-gnu.tar.gz"
