@@ -3,19 +3,19 @@ export libmkl_core, libmkl_rt
 
 using IntelOpenMP_jll
 JLLWrappers.@generate_wrapper_header("MKL")
-JLLWrappers.@declare_library_product(libmkl_core, "@rpath/libmkl_core.1.dylib")
-JLLWrappers.@declare_library_product(libmkl_rt, "@rpath/libmkl_rt.1.dylib")
+JLLWrappers.@declare_library_product(libmkl_core, "@rpath/libmkl_core.2.dylib")
+JLLWrappers.@declare_library_product(libmkl_rt, "@rpath/libmkl_rt.2.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(IntelOpenMP_jll)
     JLLWrappers.@init_library_product(
         libmkl_core,
-        "lib/libmkl_core.1.dylib",
+        "lib/libmkl_core.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libmkl_rt,
-        "lib/libmkl_rt.1.dylib",
+        "lib/libmkl_rt.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
