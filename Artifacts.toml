@@ -1,38 +1,19 @@
 [[MKL]]
-arch = "i686"
-git-tree-sha1 = "8af21e150f25b2bbaf6b392160b7417911312888"
+arch = "x86_64"
+git-tree-sha1 = "a41f069dc4a8aaa85efd4ee17b00686f2fdf2bd5"
 lazy = true
 libc = "glibc"
 os = "linux"
 
     [[MKL.download]]
-    sha256 = "299d9aed7205d57dbd8a444b475dd3d5245217b3e1e29beacb3e27dfbc8ebc9d"
-    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2024.2.0+0/MKL.v2024.2.0.i686-linux-gnu.tar.gz"
+    sha256 = "43273e67bde105747b1f35f774d631ef1dbd21bdffcd0c335290bb6cfbd2efac"
+    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2025.0.1+0/MKL.v2025.0.1.x86_64-linux-gnu.tar.gz"
 [[MKL]]
-arch = "i686"
-git-tree-sha1 = "397a545de3e8464f39a81056ca787950f36fa295"
+arch = "x86_64"
+git-tree-sha1 = "b4be4a930ca1e5fa6ec9e96c45b7420bf1a0b40c"
 lazy = true
 os = "windows"
 
     [[MKL.download]]
-    sha256 = "e869941e0afe83270849874deeca4efc5472c125e85238b7fc3234490d48ed85"
-    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2024.2.0+0/MKL.v2024.2.0.i686-w64-mingw32.tar.gz"
-[[MKL]]
-arch = "x86_64"
-git-tree-sha1 = "0ebc3c3e5d3f477a62b02a72a65fad4803ad9ed6"
-lazy = true
-libc = "glibc"
-os = "linux"
-
-    [[MKL.download]]
-    sha256 = "c815702423ca17fd8a9cb929d763f444495e0b96c626dfb721c768b4aea3c53e"
-    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2024.2.0+0/MKL.v2024.2.0.x86_64-linux-gnu.tar.gz"
-[[MKL]]
-arch = "x86_64"
-git-tree-sha1 = "07d4e2a4c926ce5a99f7ff402617dc9caa2187a0"
-lazy = true
-os = "windows"
-
-    [[MKL.download]]
-    sha256 = "edcbb2a37fb564a90c6cadd48402a3465d6d0cf23b2173175964c93982d469b1"
-    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2024.2.0+0/MKL.v2024.2.0.x86_64-w64-mingw32.tar.gz"
+    sha256 = "ca3d055c1eb4842586fd20447da95242d4de7b2f709d37a398d6a5ae42ae014e"
+    url = "https://github.com/JuliaBinaryWrappers/MKL_jll.jl/releases/download/MKL-v2025.0.1+0/MKL.v2025.0.1.x86_64-w64-mingw32.tar.gz"
