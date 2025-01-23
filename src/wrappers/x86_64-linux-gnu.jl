@@ -10,13 +10,13 @@ function __init__()
     JLLWrappers.@generate_init_header(IntelOpenMP_jll, oneTBB_jll)
     JLLWrappers.@init_library_product(
         libmkl_core,
-        "lib/libmkl_core.so.2",
+        "lib/libmkl_core.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libmkl_rt,
-        "lib/libmkl_rt.so.2",
+        "lib/libmkl_rt.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
